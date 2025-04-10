@@ -60,7 +60,7 @@ const ExamCodeDisplay: React.FC<ExamCodeDisplayProps> = ({ examCodes }) => {
 
     // Add exam title
     doc.setFontSize(14);
-    doc.text('SF UG SEM-2 CODESHEET EXAM - 2024 (R)', 105, 35, { align: 'center' });
+    doc.text('SF UG SEM-2 CODESHEET EXAM - 2025 (R)', 105, 35, { align: 'center' });
 
     // Add stream title box
     doc.rect(20, 45, 100, 30);

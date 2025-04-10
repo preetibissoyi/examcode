@@ -97,7 +97,7 @@ const MarkFoil: React.FC<MarkFoilProps> = ({ examCodes }) => {
     doc.setFontSize(14);
     doc.setFont('helvetica', 'bold');
     doc.text('MID SEM MARK FOIL FOR', 105, 35, { align: 'center' });
-    doc.text('EXAMINATION-2023', 105, 45, { align: 'center' });
+    doc.text('EXAMINATION-2025', 105, 45, { align: 'center' });
     doc.text('NIMAPARA AUTONOMOUS COLLEGE,NIMAPARA', 105, 55, { align: 'center' });
 
     // Add table for subject and exam details

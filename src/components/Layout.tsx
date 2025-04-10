@@ -2,6 +2,7 @@ import React from 'react';
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { School, ViewList } from '@mui/icons-material';
+import Footer from './Footer';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -37,6 +38,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         {children}
       </Box>
+      <Footer />
     </Box>
   );
 };
